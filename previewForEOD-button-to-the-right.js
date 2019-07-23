@@ -10,15 +10,12 @@
 
 (function(){
     'use strict'
-    window.addEventListener('pageshow', () => {
-        let button = document.createElement('button')
-        document.body.appendChild(button)
-        button.innerHTML = "preview For EOD"
-        button.onclick = function(){
-        var segments = window.location.pathname.split("/")
-        var id = segments[segments.length-1]
-        window.open("https://sw-eod-generator3.azurewebsites.net/preview/"+id);
-            };
-        return button
-    })
+    setTimeout(function(){
+        var segments = window.location.pathname.split("/");
+        var id = segments[segments.length-1];
+
+        $('.work-item-form-header-controls-container')
+            .append('<button>preview For EOD</button>')
+            .click(function () { window.open("https://sw-eod-generator3.azurewebsites.net/preview/" + id); });
+    }, 2000);
 }())
