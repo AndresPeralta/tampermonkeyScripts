@@ -6,6 +6,7 @@
 // @match      https://dev.azure.com/azurecom/*/_workitems/edit/*
 // @copyright  andres peralta
 // @require http://code.jquery.com/jquery-latest.js
+// @grant        GM_setClipboard
 // ==/UserScript==
 
 (function(){
