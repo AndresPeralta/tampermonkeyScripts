@@ -24,7 +24,8 @@
 
 GM_addStyle ( `
     #eodButton {
-        background: #005ba1;
+        background: rgb(0, 120, 212);
+        color: rgb(255,255,255);
         cursor: pointer;
         border: none;
         font: 12px "Segoe UI";
