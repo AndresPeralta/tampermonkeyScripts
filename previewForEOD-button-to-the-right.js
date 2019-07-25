@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name       Open preview for EOD
+// @name       Open preview For EOD
 // @namespace  devops
 // @version    0.1
-// @description  Opens preview for EOD
+// @description  Open preview For EOD
 // @match      https://dev.azure.com/azurecom/*/_workitems/edit/*
-// @copyright  andres peralta
+// @copyright  AndresPeralta
 // @require http://code.jquery.com/jquery-latest.js
 // @grant        GM_setClipboard
 // ==/UserScript==
