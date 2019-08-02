@@ -17,8 +17,8 @@
         var id = segments[segments.length-1];
 
         $('.work-item-form-header-controls-container')
-            .append('<button id="eodButton">Preview For EOD</button>')
-            .click(function () { window.open("https://sw-eod-generator3.azurewebsites.net/preview/" + id); });
+            .append('<button id="eodButton">Preview For EOD</button>');
+        $('#eodButton').click(function () { window.open("https://sw-eod-generator3.azurewebsites.net/preview/" + id); });
     }, 2000);
 }())
 
