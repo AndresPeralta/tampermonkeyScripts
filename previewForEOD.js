@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Open preview For EOD
 // @namespace  devops
-// @version    0.1
+// @version    0.2
 // @description  Open preview For EOD
 // @match      https://dev.azure.com/azurecom/*/_workitems/edit/*
 // @copyright  AndresPeralta
