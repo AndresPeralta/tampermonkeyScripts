@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Open preview For EOD
 // @namespace  devops
-// @version    0.2
+// @version    0.3
 // @description  Open preview For EOD
 // @match      https://dev.azure.com/azurecom/*/_workitems/edit/*
 // @copyright  AndresPeralta
@@ -18,7 +18,7 @@
 
         $('.work-item-form-header-controls-container')
             .append('<button id="eodButton">Preview For EOD</button>');
-        $('#eodButton').click(function () { window.open("https://sw-eod-generator3.azurewebsites.net/preview/" + id); });
+        $('#eodButton').click(function () { window.open("https://acom-eod-generator.azurewebsites.net/preview/" + id); });
     }, 2000);
 }())
 
